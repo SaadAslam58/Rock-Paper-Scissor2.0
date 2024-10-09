@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+body {
+    background-color:cadetblue
+
+}
+.navbar{
+    background-color: #333;
+    color: #fff;
+    height: 3rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+#mode{
+    margin-right:10px ;
+    font-size: 1.0rem;
+    display: flex;
+    border-radius:20px ;
+    padding: 7px;
+    cursor:pointer;
+}
+
+#mode:hover{
+    background-color: #444;
+    border:2px solid white ;
+    color: white;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    gap: 3rem ;
+    margin-top: 5rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color:antiquewhite;
+    border-radius:50px;
+    
+    
+}
+
+.choice {
+    height: 270px;
+    width: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover {
+    background-color: #333;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.choice img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.score-board {
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.score{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+#user-score, 
+#comp-score{
+    font-size: 4rem;
+}
+
+.msg-container{
+    margin-top: 5rem;
+    
+}
+
+#msg{
+    font-size: 2rem;
+    margin-top: 5rem;
+    height: 5rem;
+    display: inline;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#msg:hover{
+    background-color: #333;
+    color: white;
+}
+
+/* Buttom */
+
+.Theme{
+    background-color:peru;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+    #box{
+        background-color:burlywood;  
+    };
+
+}
+
